@@ -38,15 +38,15 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [ ] Mention two parts of Express that you learned about this week. Express has many helpers that provide out of the box functionality to make writing web applications and API servers easier. Compatible with connect middleware. (This means we can tap into an extensive collection of modules written for connect.)
 
-- [ ] Describe Middleware?
+- [ ] Describe Middleware? Middleware functions can get the request and response objects, operate on them, and (when specified) trigger some action. Examples are logging or security.
 
-- [ ] Describe a Resource?
+- [ ] Describe a Resource? Memory
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [ ] What can the API return to help clients know if a request was successful? 200
 
-- [ ] How can we partition our application into sub-applications?
+- [ ] How can we partition our application into sub-applications? By breaking them up into different routes (similiar to how we did with react components)
 
 ## Minimum Viable Product
 
