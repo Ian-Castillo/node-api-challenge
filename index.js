@@ -12,3 +12,17 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+
+const express = require('express');
+
+const server = express();
+
+const PORT = 5000;
+
+server.get ('/', (req,res) =>{
+    res.send ('Hello World')
+});
+
+server.listen(PORT, () => {
+    console.log(`\n*** Server Running on http://localhost:${PORT} ***\n`)
+});
